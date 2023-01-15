@@ -1,0 +1,48 @@
+map-container {
+    height: 570px;
+    }
+
+.calculation-box {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans';
+    margin: 0;
+    font-size: 13px;
+}
+
+#map { position:absolute; top:0; bottom:0; width:100%; }
+#export, #updateDataset {
+    position: absolute;
+    top:255px;
+    left:10px;
+    z-index:100;
+    background-color:white;
+    color:black;
+    padding:6px;
+    border-radius:4px;
+    font-family: 'Helvetica Neue';
+    cursor: pointer;
+    font-size:12px;
+    text-decoration:none;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: -4245px -3px;
+    height: 32px;
+    width: 32px;
+}
+#export:hover, #updateDataset:hover {
+    background-color: #ddd;
+}
+#updateDataset {
+    background-position: -4324px -3px;
+    top: 290px;
+}
